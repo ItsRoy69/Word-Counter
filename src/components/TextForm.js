@@ -18,7 +18,7 @@ const TextForm = (props) => {
     // console.log('handleOnChange button clicked');
     setText(event.target.value);
   }
-  const [text, setText] = useState('Enter text');
+  const [text, setText] = useState('');
 
   return (
     <>
@@ -31,7 +31,7 @@ const TextForm = (props) => {
         <button className='btn btn-primary mx-2' onClick={handleLowClick}>Convert to LowerCase</button>
       </div>      
       <div className='container my-3'>
-        <h1>Your Text</h1>
+        <h2>Your Text</h2>
         <p>{text.split(" ").length} words and {text.length} characters</p>
         <p>{0.008 * text.split(" ").length} Minutes Read</p>
         <h2>Preview</h2>
