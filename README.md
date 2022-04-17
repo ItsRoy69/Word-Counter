@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Tis is just a react app tut from scratch
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
